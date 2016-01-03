@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Andrzej'
 
-import websocket, simplejson as json, requests, re, pogodynka, numbers_game, switch, random
+import websocket, simplejson as json, requests, re, pogodynka, numbers_game, switch, random, slack
 
-token = 'xoxb-16407766775-cCirwYjEX0IMKIs973FqxDCu'  # Alfred token
+token = slack.alfred_token  # Alfred token
 users_list = {}
 all_channels = {}
 welcomed_users = {}

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'opierdalacze'
+__author__ = 'Andrzej'
 import re
 
 def replace_channels_links(match):
