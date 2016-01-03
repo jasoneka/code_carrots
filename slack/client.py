@@ -9,7 +9,7 @@ import sys, requests, collections, datetime, re
 from PyQt4 import QtCore, QtGui
 from slack import Ui_MainWindow
 
-token = 'xoxp-12561374081-15389395472-15609970528-f08bd42afa'
+token = ''
 channel_dictionary = collections.OrderedDict()
 all_channels = {}
 current_channel_index = ''
